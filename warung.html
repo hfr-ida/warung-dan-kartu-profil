@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<htmml lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kedai Senja</title>
+
+        <style>
+            body {
+                margin: 0;
+                background-color: #b5905d;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            /* Judul halaman */ 
+            h1 { 
+            text-align: center; 
+            font-family: Georgia, serif; 
+            color: #6B4226; margin-top: 40px; 
+            } 
+            
+            .subtitle { 
+            text-align: center; 
+            color: #58361a; 
+            } 
+            
+            /* Grouping selector */ 
+            h2, .menu-item { 
+            font-family: Arial, sans-serif; 
+            } 
+            
+            h2 { 
+            text-align: center; 
+            color: #6B4226; 
+            margin-top: 35px; 
+            } 
+            
+            .menu { 
+            width: 80%; 
+            max-width: 700px; 
+            margin: 20px auto; 
+            } 
+            
+            /* Descendant selector */ 
+            .menu .menu-item { 
+            background-color: #FFFFFF; 
+            margin: 15px 0; 
+            padding: 18px; 
+            border-radius: 12px; 
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12); 
+            } 
+            
+            .menu-item h3 { 
+            margin: 0 0 8px; 
+            color: #6B4226; 
+            } 
+            
+            .menu-item p { 
+            margin: 0; 
+            color: #777777; 
+            } 
+            
+            .harga { 
+            display: block; 
+            margin-top: 10px; 
+            color: #C45A3C; 
+            font-weight: bold; 
+            } 
+            
+            /* Pseudo-class :hover */ 
+            .menu-item:hover { 
+            background-color: #FFF0D9;
+            transform: translateY(-3px); 
+            transition: 0.3s; }
+            
+            footer { 
+            text-align: center; 
+            margin: 40px 0 20px; 
+            color: #8A6A50; } 
+
+        </style>
+    </head>
+    <body>
+        <h1>☕ Kedai Senja</h1>
+        <p class="subtitle">Tempat nyaman untuk menikmati makanan dan minuman favoritmu</p>
+
+        <h2>🍽️ Daftar Menu</h2>
+
+        <div class="menu">
+            <div class="menu-item"> 
+                <h3>🍚 Nasi Goreng Spesial</h3> 
+                <p>Nasi goreng dengan telur, ayam, dan sayuran.</p> 
+                <span class="harga">Rp15.000</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>🍜 Mie Goreng Jawa</h3> 
+                <p>Mie goreng dengan bumbu khas Jawa dan telur.</p> 
+                <span class="harga">Rp13.000</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>🍗 Ayam Geprek</h3> 
+                <p>Ayam crispy dengan sambal pedas yang nikmat.</p> 
+                <span class="harga">Rp18.000</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>🥤 Es Teh Manis</h3>
+                <p>Teh manis dingin yang segar.</p>
+                <span class="harga">Rp4.000</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>🍊 Es Jeruk</h3>
+                <p>Minuman jeruk segar dengan rasa manis.</p>
+                <span class="harga">Rp5.000</span>
+            </div>
+        </div>
+
+        <footer>
+            © 2026 Kedai Senja
+        </footer>
+    </body>
+</htmml>

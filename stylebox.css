@@ -1,0 +1,35 @@
+.produk {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    box-shadow: 0 3px 8px gray;
+}
+
+.produk img {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.produk p {
+    color: gray;
+    margin: 10px 0 5px;
+}
+
+.produk h3 {
+    margin: 5px 0 15px;
+}
+
+.produk button {
+    background-color: #20c878;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
